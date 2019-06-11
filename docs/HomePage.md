@@ -5,14 +5,7 @@
 <a href="https://github.com/Snailclimb/JavaGuide" target="_blank">
 	<img src="https://my-blog-to-use.oss-cn-beijing.aliyuncs.com/2019-3/logo - 副本.png" width=""/>
 </a>
-</p>
-<h2 align="center">Special Sponsors</h2>
-<p align="center">
-<a href="https://coding.net/?utm_source=JavaGuide" target="_blank">
-  <img src="http://pqrlmrv7w.bkt.clouddn.com/img/2019-4/006rNwoDgy1g2dw5gau7nj30eg02vwfr.jpg"/>
- </a>
-</p>
-
+	
 ## Java
 
 ### 基础
@@ -38,10 +31,12 @@
 
 ### JVM
 
-* [Java内存区域](./java/jvm/Java内存区域.md)
-* [JVM垃圾回收](./java/jvm/JVM垃圾回收.md)
-* [JDK 监控和故障处理工具](./java/jvm/JDK监控和故障处理工具总结.md)
-* [《深入理解Java虚拟机》第2版学习笔记](./java/Java虚拟机（jvm）.md)
+* [一 Java内存区域](./java/jvm/Java内存区域.md)
+* [二 JVM垃圾回收](./java/jvm/JVM垃圾回收.md)
+* [三 JDK 监控和故障处理工具](./java/jvm/JDK监控和故障处理工具总结.md)
+* [四 类文件结构](./java/jvm/类文件结构.md)
+* [五 类加载过程](./java/jvm/类加载过程.md)
+* [六 类加载器](./java/jvm/类加载器.md)
 
 ### I/O
 
@@ -112,9 +107,10 @@
 
 #### Spring
 
-- [Spring 学习与面试](./system-design/framework/Spring学习与面试.md)
-- [Spring中bean的作用域与生命周期](./system-design/framework/SpringBean.md)
-- [SpringMVC 工作原理详解](./system-design/framework/SpringMVC%20%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86%E8%AF%A6%E8%A7%A3.md)
+- [Spring 学习与面试](./system-design/framework/spring/Spring.md)
+- [Spring中bean的作用域与生命周期](./system-design/framework/spring/SpringBean.md)
+- [SpringMVC 工作原理详解](./system-design/framework/spring/SpringMVC-Principle.md)
+- [Spring中都用到了那些设计模式?](./system-design/framework/spring/Spring-Design-Patterns.md)
 
 #### ZooKeeper
 
@@ -123,10 +119,11 @@
 
 ### 数据通信
 
-- [数据通信(RESTful、RPC、消息队列)相关知识点总结](./system-design/data-communication/数据通信(RESTful、RPC、消息队列).md)
+- [数据通信(RESTful、RPC、消息队列)相关知识点总结](./system-design/data-communication/summary.md)
 - [Dubbo 总结：关于 Dubbo 的重要知识点](./system-design/data-communication/dubbo.md)
 - [消息队列总结](./system-design/data-communication/message-queue.md)
-- [RabbitMQ 的重要概念以及安装](./system-design/data-communication/rabbitmq.md)
+- [RabbitMQ 入门](./system-design/data-communication/RabbitMQ.md)
+- [RocketMQ的几个简单问题与答案](./system-design/data-communication/RocketMQ-Questions.md)
 
 ### 网站架构
 
@@ -178,7 +175,6 @@
 ### Github榜单
 
 - [Java 项目月榜单](./github-trending/JavaGithubTrending.md)
-
 
 ***
 
